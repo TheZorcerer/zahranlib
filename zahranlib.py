@@ -1,13 +1,3 @@
-#
-#
-#
-#                     IMPORTANT!!!!!!!!!!!!!!!
-#                     This is BETA-TESTING for /usr/lib/python3.5/zahranlib.py
-#                     Update ONLY after testing new code!
-#
-#                     Changelog 3/4/2018:
-#                     Created the proper version of zahranlib, functions getBlob processNetForward, checkifjpeg, xy_diff, CaseInsensitiveRegex, grabfrominsta, getTerminalOutput
-#                     and Timer were added. No bugs or errors. This version has been updated.
 import cv2
 import numpy as np
 import math
