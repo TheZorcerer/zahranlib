@@ -26,7 +26,7 @@ def xy_diff(xy1,xy2):
 	diff = math.sqrt(xdiff*xdiff+ydiff*ydiff) # The logic behind this is pretty simple, consider two xy coords, using them you can form a right angled triangle,
 	return diff  # Where the difference between the x coords form one side, and the distance between the y coords, the other. Therefore using the Pythogoras theorem, you can find the third side.
 
-def CaseInsensitiveRegex(string,regex):
+def CaseInsensitiveRegex(string,regex):       # Self explanatory, it seraches for a string in another string, disregarding case
 	try:
 		for i in range(len(string)):
 				for l in range(len(regex)):
@@ -59,7 +59,7 @@ def getTerminalOutput(cmd=["test"]):
 	return("output")
 
 class Timer(object):
-	"""This creades a periodic timer object. every id the time interval in seconds, function in the def to be executed"""
+	"""This creades a periodic timer object. every time interval in seconds is reached , function will be executed"""
 	def __init__(self, every,function):
 		super(Timer, self).__init__()
 		self.every = every
